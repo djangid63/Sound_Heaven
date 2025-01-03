@@ -7,8 +7,6 @@ import Banner from './Components/Banner/Banner';
 import BannerText from './Components/Banner/BannerText';
 import Footer from './Components/Footer/footer';
 
-
-
 function App() {
   return (
     <main className='overflow-x-hidden'>
