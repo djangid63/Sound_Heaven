@@ -6,6 +6,7 @@ import { UpdateFollower } from 'react-mouse-follower'
 import Banner from './Components/Banner/Banner';
 import BannerText from './Components/Banner/BannerText';
 import Footer from './Components/Footer/footer';
+import ProductCard from './Components/Product/ProductCard';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         zIndex: 999,
         followSpeed: 1.5,
       }}>
+        <ProductCard />
         <Services />
         <Banner />
         <BannerText />
