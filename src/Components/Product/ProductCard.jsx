@@ -42,7 +42,7 @@ const ProductCard = () => {
       )
     );
   }
-  
+
   const decrement = (index) => {
     setCount((prevCount) =>
       prevCount.map((item, i) =>
@@ -57,7 +57,7 @@ const ProductCard = () => {
         backgroundColor: 'whitesmoke',
         zIndex: 999,
         followSpeed: 1.5,
-        scale: 3,
+        scale: 10,
         mixBlendMode: "difference"
       }}>
         <div className='container bg-gray-100 py-4'>
