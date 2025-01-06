@@ -50,7 +50,7 @@ const headPhoneData = [
   {
     id: 2,
     image: Headphone2,
-    title: 'Ninja Wireless 2',
+    title: 'Katana Wireless',
     subtitle: "Text which i don't know exist in the world",
     price: "$100",
     modal: 'Modal Brown',
@@ -60,7 +60,7 @@ const headPhoneData = [
   {
     id: 3,
     image: Headphone3,
-    title: 'Ninja Wireless 3',
+    title: 'Samurai Wireless',
     subtitle: "Text which i don't know exist in the world",
     price: "$100",
     modal: 'Modal Brown',
