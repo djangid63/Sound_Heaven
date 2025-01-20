@@ -5,7 +5,7 @@ import Services from './Components/Services/Services';
 import { UpdateFollower } from 'react-mouse-follower'
 import Banner from './Components/Banner/Banner';
 import BannerText from './Components/Banner/BannerText';
-import Footer from './Components/Footer/footer';
+import Footer from './Components/Footer/Footer';
 import ProductCard from './Components/Product/ProductCard';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <BannerText />
       </UpdateFollower>
       <Footer />
-    </main >
+    </main>
   )
 }
 
