@@ -57,7 +57,7 @@ const ProductCard = () => {
         backgroundColor: 'whitesmoke',
         zIndex: 999,
         followSpeed: 1.5,
-        scale: 10,
+        scale: 5,
         mixBlendMode: "difference"
       }}>
         <div className='container bg-gray-100 py-4'>
@@ -74,9 +74,9 @@ const ProductCard = () => {
                   <h2 className='text-xl font-bold'>{card.price}</h2>
                 </div>
                 <div className='flex justify-center items-center space-x-4 text-center m-2'>
-                  <button onClick={() => increment(index)} className='bg-brandDark text-white px-2 rounded-lg'>+</button>
-                  <p>Count: {count[index]}</p>
                   <button onClick={() => decrement(index)} className='bg-brandDark text-white px-2 rounded-lg'>-</button>
+                  <p>Cart :  {count[index]}</p>
+                  <button onClick={() => increment(index)} className='bg-brandDark text-white px-2 rounded-lg'>+</button>
                 </div>
               </motion.div>
             ))}
